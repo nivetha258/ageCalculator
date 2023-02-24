@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js date </title>
+	
+	<style>
+	body{background-color:#86a4ae}
+	#date-section{
+		margin:100px auto;
+		padding:40px;
+		width:400px;
+		background-color:white;
+		text-align:center;
+	}
+	h2{color:#256c6c}
+	#input-section{border:solid 1px gray}
+	#input-section > div{margin-bottom:15px}
+	#output-section span{
+	font-size:18px;
+	font-weight:bold}
+
+	</style>
+	
+</head>
+<body>
+
+	<div id ="date-section">
+		<div id ="input-section">
+			<h2>AGE CALCULATOR</h2>
+			
+			<div>
+				<label for ="date1">Enter Date:<input type = "datetime-local" id="date1"></label>
+			</div>
+			<!--<div>
+				<label for ="date2">Enter Date:<input type = "datetime-local" id="date2" ></label>
+			</div> -->
+			<button type = "button" id="btn" >enter</button>
+		</div>
+		<div id ="output-section">
+			<p id ="output">
+				The difference is <span id ="year"></span>years <span id ="month"></span>months				
+				<span id ="week"></span>weeks <span id ="day"></span>days <span id ="hour"></span>hour.
+			</p>
+		</div>
+	</div>
+
+
+	<script src="js/main.js"></script>
+			
+</body>
+
+</html>
